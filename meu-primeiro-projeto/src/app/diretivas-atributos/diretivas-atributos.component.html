@@ -1,0 +1,28 @@
+<ng-content select="h1">
+    
+</ng-content>
+
+<p [ngClass]="{ active: valor, disabled: !valor }">NgClass</p>
+<p [ngStyle]="{ 'background-color': altura }">NgClass</p>
+
+<hr />
+
+<input [(ngModel)]="nome" /> {{ nome }}
+<button (click)="salvar()">Salvar</button>
+<li *ngFor="let item of list">{{ item.nome }}</li>
+<ng-template ngFor let-item [ngForOf]="list">
+  <p>{{ item.nome }}</p>
+</ng-template>
+
+<hr>    
+
+<ng-content select="hr">
+
+</ng-content>
+
+
+<h1>Pipe</h1>
+<input [(ngModel)]="nome" /> {{ nome }}
+<button (click)="salvar()">Salvar</button>
+<li *ngFor="let item of list">{{ item.nome|uppercase }}</li>
+<p>{{date | date: "dd/MM/yyyy"}}</p>

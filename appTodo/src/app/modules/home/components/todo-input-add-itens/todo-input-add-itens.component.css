@@ -1,0 +1,18 @@
+:host {
+    display:flex;
+    justify-content: center;
+    margin-top:-70px;
+}
+input {
+    width:80%;
+    border:none;
+    font-size:16px;
+    padding:10px;
+    color:white;
+    box-sizing: border-box;
+    background-color: 	#7289da;
+}
+input::placeholder {
+    color:white;
+    text-align: center;
+}
