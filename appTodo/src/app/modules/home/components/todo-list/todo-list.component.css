@@ -1,0 +1,8 @@
+.loading {
+    background-image: url("https://media.istockphoto.com/id/1269034924/vector/to-do-list-banner-design-man-holds-a-pencil-and-notes-completed-tasks-on-time-time.jpg?s=612x612&w=0&k=20&c=vbCzGvNtAXEvVqnY_s4uIAewRRzssrkpSYoRmh_HVVE=");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.checked input {
+    text-decoration: line-through;
+}
